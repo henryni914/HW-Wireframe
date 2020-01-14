@@ -7,23 +7,23 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-
+/*
 .container {
     margin: 0 auto;
     margin-top: 20px;
     width: 960px;
 }
-
+*/
 header {
     background-color: #ebebeb;
-    width: 100%;
     margin: 10px;
+    padding: 30px;
 }
 
 nav {
-    background-color: #ebebeb;
-    width: 100%;  
+    background-color: #ebebeb;;  
     margin: 10px;
+    padding: 30px;
 }
 
 section {
@@ -32,30 +32,32 @@ section {
     margin: 10px;
     float: left;
     height: 200px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
     margin: 20px;
-    height: 80%;
+    height: 150px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
-h1 {
+h1,p {
     color: #777;
     background: #ebebeb;
-    margin: 5px
-}
-p {
-    color: #777;
-    background: #ebebeb;
-    margin: 5px
+    margin: 10px;
+    padding: 10px;
 }
 aside {
     background-color: #ebebeb;
     width:425px;
     margin: 10px;
     float: left;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 .clearfix::after {
@@ -66,6 +68,6 @@ aside {
 
 footer {
     background-color: #ebebeb;
-    width: 100%;
     margin: 10px;
+    padding: 30px;
 }
